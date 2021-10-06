@@ -1,0 +1,21 @@
+{
+    "name": "xinyeweb/xpyun",
+    "description": "XPrinterYun",
+    "type": "library",
+    "keywords": ["xpyun"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "ht",
+            "email": "htmail.zhang@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xpyun\\": ""
+        }
+    }
+}
