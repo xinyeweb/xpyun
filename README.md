@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist xinyeweb/xpyun "*"
+php composer.phar require --prefer-dist xinyeweb/xpyun:"dev-master"
 ```
 
 or add

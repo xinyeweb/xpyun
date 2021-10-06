@@ -27,10 +27,12 @@ class RestRequest
      */
     var $debug;
 
-    function __construct()
+    function __construct($user_name, $user_key)
     {
-        $this->user = USER_NAME;
-        $this->userKey = USER_KEY;
+        // $this->user = USER_NAME;
+        // $this->userKey = USER_KEY;
+        $this->user = $user_name;
+        $this->userKey = $user_key;
         $this->debug = "0";
         $this->timestamp = Xputil::getMillisecond();
     }
