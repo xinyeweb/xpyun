@@ -14,7 +14,8 @@ class HttpClient
 {
     public function http_post_json($url, $jsonStr)
     {
-        print($jsonStr.'<br/>');
+        // 不注銷會打印返回信息
+        // print($jsonStr.'<br/>');
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_POST, 1);// 发送一个常规的Post请求
